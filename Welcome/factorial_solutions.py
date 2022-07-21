@@ -15,6 +15,8 @@ def fac(value):
 
     else:
         return value * fac(value - 1)
+
+
 print('limits of facorial recursion Problem 1:')
 print(fac(1))
 print(fac(10))
@@ -62,7 +64,7 @@ def fac3(value):
         fact = fact * i
 
     return fact
-print('\n\nlimits of gpu process of a dynimic solution to factorial Problem 3:')
+print('\n\nlimits of dynimic solution to factorial Problem 3:')
 print(fac3(1))
 print(fac3(10))
 print(fac3(100))
